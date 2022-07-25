@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Roboto:wght@300&display=swap');
+
+*	{
+	font-family: 'Roboto', sans-serif;
+	/* reset */
+	padding: 0;
+	margin: 0;
+	display: block;
+
+	}
+
+main {
+	grid-column-start: 1 / 2;
+	grid-column-end: 2 / 5 ;
+}
+
+
+body{
+	background-color: black;
+	margin:1rem;
+	padding:1rem;
+	width: 1500px;
+}
+
+main nav a {
+	font-size: 2rem;
+	color:black;
+	padding: 1rem;
+	margin: 1rem;
+	font-weight: 800;
+	text-decoration: none;
+	display: flex;
+	justify-content: space-between;
+
+
+
+
+				}
+
+
+
+
+#contenedor{
+	width: 500%;
+	max-width: 1600px;
+	background-color: #b8a5c6;
+	margin: 0.2rem; 
+	padding: 0.2rem;
+	border-style: solid;
+	border-color: #E4DCCF;
+	border-radius: 2rem;
+	border-width: 0.2rem;
+	padding: 0.5rem;
+	color: black;
+	display:grid; 
+	grid-template-columns: repeat(auto, 1fr);
+	grid-template-rows: repeat(4, auto);
+
+}
+
+h1{
+	font-size: 5.5rem;
+	color: black;
+	margin: 0.2rem;
+	padding: 0.2rem;
+	text-align: center;
+}
+
+article div, #eventos {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: center;
+}
+
+article div{
+	padding: 1rem;
+	margin: 1rem;
+	background-color:#F7E2D6;
+	border-radius: 0.5rem;
+}
+
+article  a{
+	font-size: 1.5rem;
+	text-decoration: none;
+}
+
+footer {
+	text-align: center;
+	justify-content: center;
+	display: flex;
+}
+
+footer a img {
+	justify-content: center;
+}
+
+body header{
+	grid-column-start: 1;
+	grid-column-end:6 ;
+}
+
+body footer{
+	grid-column: span 5;
+	
+}
+
+body main {
+	width: 70%;
+	display: grid;
+	grid-column: span 1;
+}
+
+
+ iframe{
+ 	margin: 1rem;
+ 	padding: 1rem;
+ 	text-align: center;
+ }
+
+/*  */
+
+
+
+/* Css eventos */
+
+#eventos p{
+	display: flex;
+	margin: 1rem;
+	padding: 1rem;
+	background-color: #34ae34;
+	border-radius: 0.5rem;
+	justify-content: center;
+	border:solid;
+	border-color: black;
+
+}
+
+h2{
+	justify-content: center;
+	text-align: center;
+}
+
+
+@media(max-width:600px){
+	body{
+		background-color: aqua;
+	
+	}
+
